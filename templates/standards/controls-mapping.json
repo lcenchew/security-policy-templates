@@ -4,22 +4,16 @@
       "id": "cp-ism-scope",
       "implements": [
         {
-          "standard": "HIPAA",
-          "requirements": []
-        },
-        {
-          "standard": "CSA CCM",
+          "standard": "NIST CSF",
           "requirements": [
-            "AIS-01",
-            "STA-03",
-            "AAC-03"
+            "ID.GV-1",
+            "ID.BE-3"
           ]
         },
         {
-          "standard": "PCI DSS",
+          "standard": "ISO/IEC 27002:2013",
           "requirements": [
-            "11.6",
-            "12.1"
+            "7.2.1"
           ]
         }
       ]
@@ -28,30 +22,16 @@
       "id": "cp-ism-policies",
       "implements": [
         {
-          "standard": "HIPAA",
-          "requirements": []
-        },
-        {
-          "standard": "HITRUST CSF",
-          "requirements": [],
-          "controls": []
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "5.1.1"
+          ]
         }
       ]
     },
     {
       "id": "cp-ism-reporting",
-      "implements": [
-        {
-          "standard": "HIPAA",
-          "requirements": []
-        },
-        {
-          "standard": "CSA CCM",
-          "requirements": [
-            "SEF-05"
-          ]
-        }
-      ]
+      "implements": []
     },
     {
       "id": "cp-model-principles",
@@ -80,6 +60,24 @@
             "6.4",
             "6.7"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-3"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.175"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "6.1.6"
+          ]
         }
       ]
     },
@@ -97,6 +95,12 @@
             "IPY-05",
             "STA-03"
           ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "12.1.3"
+          ]
         }
       ]
     },
@@ -113,6 +117,12 @@
           "standard": "CSA CCM",
           "requirements": [
             "SEF-05"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
           ]
         }
       ]
@@ -158,6 +168,24 @@
             "12.4",
             "12.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "ID.GV-2",
+            "DE.DP-1",
+            "PR.AT-4",
+            "PR.AT-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "6.1.1",
+            "6.1.2",
+            "7.2.1"
+          ]
         }
       ]
     },
@@ -192,6 +220,20 @@
             "12.4",
             "12.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AT-1",
+            "PR.AT-2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.2.2",
+            "7.2.2"
+          ]
         }
       ]
     },
@@ -216,6 +258,20 @@
           "standard": "PCI DSS",
           "requirements": [
             "12.6"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7",
+            "PR.AT-1",
+            "PR.AT-2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "7.2.2"
           ]
         }
       ]
@@ -243,8 +299,37 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "id": "cp-policy-framework",
+      "implements": [
+        {
+          "standard": "HIPAA",
+          "requirements": [
+            "164.308(a)(1)(i)",
+            "164.308(a)(8)",
+            "164.316(a)",
+            "164.316(b)(1)",
+            "164.316(b)(1)(i)",
+            "164.316(b)(1)(ii)",
+            "164.316(b)(1)(iii)"
+          ]
+        },
+        {
+          "standard": "CSA CCM",
+          "requirements": [
+            "AAC-03"
+          ]
+        },
+        {
+          "standard": "PCI DSS",
+          "requirements": [
+            "12.1"
+          ]
         }
       ]
     },
@@ -266,6 +351,7 @@
         {
           "standard": "CSA CCM",
           "requirements": [
+            "AAC-03",
             "GRM-04",
             "STA-04"
           ]
@@ -273,8 +359,22 @@
         {
           "standard": "PCI DSS",
           "requirements": [
-            "2.5",
             "12.1"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.2.2",
+            "5.1.1",
+            "5.1.2",
+            "12.1.1"
           ]
         }
       ]
@@ -306,6 +406,15 @@
             "6.4",
             "6.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.GV-4",
+            "ID.RM-1",
+            "ID.RA-5",
+            "ID.RA-6"
+          ]
         }
       ]
     },
@@ -333,6 +442,15 @@
             "6.1",
             "12.2"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-1",
+            "ID.RA-3",
+            "ID.RA-4",
+            "ID.RA-6"
+          ]
         }
       ]
     },
@@ -359,6 +477,12 @@
           "requirements": [
             "12.2"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-6"
+          ]
         }
       ]
     },
@@ -376,6 +500,14 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RA-1",
+            "ID.RA-3",
+            "ID.RA-6"
+          ]
         }
       ]
     },
@@ -384,8 +516,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -394,8 +526,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -411,6 +543,18 @@
           "requirements": [
             "STA-04"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.GV-3"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.1.2"
+          ]
         }
       ]
     },
@@ -425,6 +569,13 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.2.1",
+            "18.2.3"
+          ]
         }
       ]
     },
@@ -433,8 +584,20 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.1.1"
+          ]
         }
       ]
     },
@@ -443,8 +606,14 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.210"
+          ]
         }
       ]
     },
@@ -480,6 +649,15 @@
             "10.9",
             "11.6"
           ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "15.3.1",
+            "18.2.3",
+            "12.4.1",
+            "12.4.3"
+          ]
         }
       ]
     },
@@ -506,6 +684,12 @@
             "10.6",
             "11.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1"
+          ]
         }
       ]
     },
@@ -523,6 +707,12 @@
             "AAC-02",
             "IAM-03",
             "STA-04"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
           ]
         }
       ]
@@ -558,6 +748,18 @@
           "requirements": [
             "AAC-02"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.2.3"
+          ]
         }
       ]
     },
@@ -590,6 +792,21 @@
             "10.3",
             "11.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "15.3.2",
+            "12.4.2",
+            "12.4.4",
+            "12.7.1"
+          ]
         }
       ]
     },
@@ -615,6 +832,19 @@
           "requirements": [
             "10.5",
             "10.7"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.PT-1",
+            "PR.DS-6"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "15.3.2"
           ]
         }
       ]
@@ -659,6 +889,12 @@
             "6.1",
             "6.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8"
+          ]
         }
       ]
     },
@@ -680,6 +916,12 @@
           "requirements": [
             "11.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-7"
+          ]
         }
       ]
     },
@@ -688,8 +930,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -735,6 +977,15 @@
             "9.7",
             "12.3"
           ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "13.2.4",
+            "13.2.3",
+            "7.1.2",
+            "8.1.3"
+          ]
         }
       ]
     },
@@ -758,6 +1009,18 @@
           "requirements": [
             "12.7"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "7.1.1"
+          ]
         }
       ]
     },
@@ -774,6 +1037,18 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "PE.1.131"
+          ]
         }
       ]
     },
@@ -795,6 +1070,19 @@
             "HRS-04",
             "IAM-11"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-11"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "7.3.1",
+            "8.1.4"
+          ]
         }
       ]
     },
@@ -811,6 +1099,12 @@
             "BCR-10",
             "GRM-05",
             "GRM-06"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "16.1.3"
           ]
         }
       ]
@@ -838,8 +1132,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -848,8 +1142,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -858,8 +1152,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -878,6 +1172,12 @@
             "GRM-07",
             "HRS-06",
             "SEF-03"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "7.2.3"
           ]
         }
       ]
@@ -924,6 +1224,30 @@
             "8.2",
             "8.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1",
+            "PR.AC-4"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "IA.1.077",
+            "IA.1.076",
+            "AC.1.002",
+            "AC.1.001"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.1.1",
+            "9.2.1",
+            "9.2.2"
+          ]
         }
       ]
     },
@@ -943,6 +1267,18 @@
             "BCR-04",
             "IAM-02",
             "IAM-12"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.4.2"
           ]
         }
       ]
@@ -973,6 +1309,12 @@
             "8.3",
             "8.3.1",
             "8.3.2"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
           ]
         }
       ]
@@ -1030,6 +1372,20 @@
             "8.1",
             "8.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.1.2",
+            "9.2.3"
+          ]
         }
       ]
     },
@@ -1045,6 +1401,25 @@
           "requirements": [
             "BCR-04",
             "IVS-12"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-3"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.176"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "6.2.2",
+            "9.1.2"
           ]
         }
       ]
@@ -1135,6 +1510,18 @@
             "8.6",
             "8.8"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "AC.1.001"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.2.6"
+          ]
         }
       ]
     },
@@ -1153,6 +1540,21 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-3",
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.AT-2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.2.3"
+          ]
         }
       ]
     },
@@ -1183,6 +1585,12 @@
           "standard": "PCI DSS",
           "requirements": [
             "1.2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.4.4"
           ]
         }
       ]
@@ -1215,6 +1623,18 @@
             "7.1",
             "8.8"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-3"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.2.5"
+          ]
         }
       ]
     },
@@ -1243,6 +1663,26 @@
             "1.5",
             "5.3"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "13.2.3"
+          ]
         }
       ]
     },
@@ -1262,6 +1702,19 @@
             "1.1",
             "1.2",
             "11.1"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.176"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "6.2.2",
+            "9.1.2"
           ]
         }
       ]
@@ -1296,6 +1749,24 @@
             "8.2.6",
             "8.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AC-1"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "IA.1.077"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.4.3"
+          ]
         }
       ]
     },
@@ -1320,6 +1791,13 @@
             "IAM-06",
             "IAM-08"
           ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.2.4",
+            "9.3.1"
+          ]
         }
       ]
     },
@@ -1328,13 +1806,20 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         },
         {
           "standard": "PCI DSS",
           "requirements": [
             "8.7"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.1.2",
+            "9.4.1"
           ]
         }
       ]
@@ -1355,6 +1840,12 @@
           "requirements": [
             "BCR-04",
             "IAM-02"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1"
           ]
         }
       ]
@@ -1398,6 +1889,43 @@
             "9.4",
             "9.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-2",
+            "PR.IP-5",
+            "PR.AC-2"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "PE.1.134",
+            "PE.1.133",
+            "PE.1.132",
+            "PE.1.131"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "11.1.1",
+            "11.1.2",
+            "11.1.3",
+            "11.1.4",
+            "11.1.5",
+            "11.1.6",
+            "11.2.1",
+            "11.2.2",
+            "11.2.3",
+            "11.2.4",
+            "11.2.5",
+            "11.2.6",
+            "11.2.7",
+            "11.2.8",
+            "11.2.9"
+          ]
         }
       ]
     },
@@ -1440,6 +1968,42 @@
             "9.3",
             "9.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-2",
+            "PR.IP-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "PE.1.134",
+            "PE.1.133",
+            "PE.1.132",
+            "PE.1.131"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "11.1.1",
+            "11.1.2",
+            "11.1.3",
+            "11.1.4",
+            "11.1.5",
+            "11.1.6",
+            "11.2.1",
+            "11.2.2",
+            "11.2.3",
+            "11.2.4",
+            "11.2.5",
+            "11.2.6",
+            "11.2.7",
+            "11.2.8",
+            "11.2.9"
+          ]
         }
       ]
     },
@@ -1472,6 +2036,29 @@
             "9.6",
             "9.7"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-1",
+            "ID.AM-5",
+            "PR.IP-5",
+            "PR.DS-3"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "PE.1.134",
+            "PE.1.131"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "8.1.1",
+            "8.1.2"
+          ]
         }
       ]
     },
@@ -1489,6 +2076,21 @@
           "standard": "PCI DSS",
           "requirements": [
             "2.4"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-2",
+            "ID.AM-5",
+            "PR.DS-3"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "8.1.1",
+            "8.1.2"
           ]
         }
       ]
@@ -1531,6 +2133,18 @@
             "DSI-04",
             "HRS-06"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "8.2.1"
+          ]
         }
       ]
     },
@@ -1546,12 +2160,7 @@
         {
           "standard": "CSA CCM",
           "requirements": [
-            "AIS-04"
-          ]
-        },
-        {
-          "standard": "CSA CCM",
-          "requirements": [
+            "AIS-04",
             "DSI-01",
             "DSI-03",
             "IPY-02",
@@ -1565,6 +2174,13 @@
             "2.3",
             "3.1",
             "7.2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "8.2.2",
+            "8.2.3"
           ]
         }
       ]
@@ -1584,6 +2200,13 @@
             "AIS-04",
             "DSI-02",
             "DSI-06"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-3",
+            "ID.AM-5"
           ]
         }
       ]
@@ -1612,6 +2235,20 @@
             "MOS-06",
             "MOS-17"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.IP-4",
+            "PR.DS-4"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "12.3.1"
+          ]
         }
       ]
     },
@@ -1627,6 +2264,18 @@
           "requirements": [
             "AIS-04",
             "BCR-11"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-6"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "MP.1.118"
           ]
         }
       ]
@@ -1655,6 +2304,13 @@
             "2.6",
             "3.5"
           ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "15.5.4",
+            "10.1.1"
+          ]
         }
       ]
     },
@@ -1681,6 +2337,19 @@
           "requirements": [
             "2.3",
             "3.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5",
+            "PR.DS-1"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.3.1"
           ]
         }
       ]
@@ -1716,6 +2385,28 @@
             "3.6",
             "4.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5",
+            "PR.DS-2"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.175"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "13.2.1",
+            "14.1.2",
+            "14.1.3",
+            "14.3.1"
+          ]
         }
       ]
     },
@@ -1734,6 +2425,18 @@
           "requirements": [
             "AIS-04",
             "IAM-05"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.3.1"
           ]
         }
       ]
@@ -1760,6 +2463,12 @@
           "requirements": [
             "3.5",
             "3.6"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "10.1.2"
           ]
         }
       ]
@@ -1793,6 +2502,19 @@
             "IPY-03",
             "STA-01"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-6",
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.3.1"
+          ]
         }
       ]
     },
@@ -1811,6 +2533,24 @@
           "requirements": [
             "6.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-2",
+            "PR.DS-7"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.2.1",
+            "14.2.4",
+            "14.2.9",
+            "14.2.6",
+            "6.1.6",
+            "12.1.4"
+          ]
         }
       ]
     },
@@ -1822,6 +2562,18 @@
           "requirements": [
             "CCC-01",
             "IAM-06"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "9.4.5"
           ]
         }
       ]
@@ -1856,6 +2608,19 @@
             "6.6",
             "6.7"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.1.1",
+            "14.2.5"
+          ]
         }
       ]
     },
@@ -1870,6 +2635,18 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.2.5"
+          ]
         }
       ]
     },
@@ -1906,6 +2683,19 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.212",
+            "SI.1.213"
+          ]
         }
       ]
     },
@@ -1917,6 +2707,26 @@
           "requirements": [
             "6.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-4",
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.212"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.2.8",
+            "14.2.9"
+          ]
         }
       ]
     },
@@ -1927,6 +2737,26 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-4",
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.212"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.2.8",
+            "14.2.9"
+          ]
         }
       ]
     },
@@ -1949,6 +2779,27 @@
           "requirements": [
             "11.3"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-8",
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211",
+            "SI.1.213"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.2.8",
+            "12.6.1"
+          ]
         }
       ]
     },
@@ -1957,8 +2808,8 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
         }
       ]
     },
@@ -1979,6 +2830,12 @@
             "1.5",
             "6.3",
             "12.7"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.2.7"
           ]
         }
       ]
@@ -2008,8 +2865,14 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.AE-1"
+          ]
         }
       ]
     },
@@ -2034,7 +2897,25 @@
           "requirements": [
             "1.5",
             "2.2",
+            "2.5",
             "6.4"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3",
+            "PR.IP-1"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.2.2",
+            "14.2.3",
+            "14.2.9",
+            "6.1.6",
+            "12.1.2"
           ]
         }
       ]
@@ -2044,8 +2925,14 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-1"
+          ]
         }
       ]
     },
@@ -2068,7 +2955,28 @@
           "standard": "PCI DSS",
           "requirements": [
             "1.1",
-            "2.1"
+            "2.1",
+            "2.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-1",
+            "PR.AC-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.176"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "13.1.1",
+            "13.1.2"
           ]
         }
       ]
@@ -2089,6 +2997,12 @@
             "IVS-13",
             "STA-03"
           ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "13.1.3"
+          ]
         }
       ]
     },
@@ -2104,6 +3018,14 @@
           "requirements": [
             "CCC-01",
             "CCC-03"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.IP-3"
           ]
         }
       ]
@@ -2128,6 +3050,12 @@
           "requirements": [
             "6.2"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.210"
+          ]
         }
       ]
     },
@@ -2150,6 +3078,15 @@
           "requirements": [
             "6.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2",
+            "PR.IP-3",
+            "PR.DS-7"
+          ]
         }
       ]
     },
@@ -2171,7 +3108,21 @@
         {
           "standard": "PCI DSS",
           "requirements": [
-            "2.1"
+            "2.1",
+            "2.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "12.5.1",
+            "12.6.2"
           ]
         }
       ]
@@ -2197,6 +3148,20 @@
           "standard": "PCI DSS",
           "requirements": [
             "2.2"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211"
           ]
         }
       ]
@@ -2227,6 +3192,27 @@
             "6.2",
             "10.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "PR.IP-1"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "12.5.1",
+            "12.6.2"
+          ]
         }
       ]
     },
@@ -2241,6 +3227,13 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.IP-3",
+            "PR.IP-1"
+          ]
         }
       ]
     },
@@ -2257,6 +3250,13 @@
             "BCR-01",
             "CCC-01",
             "GRM-05"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.MA-1",
+            "PR.MA-2"
           ]
         }
       ]
@@ -2284,6 +3284,28 @@
             "1.2",
             "6.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-1",
+            "DE.AE-3",
+            "PR.AC-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.176",
+            "SC.1.175"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.1.2",
+            "14.1.3"
+          ]
         }
       ]
     },
@@ -2300,6 +3322,22 @@
           "standard": "CSA CCM",
           "requirements": [
             "IVS-01"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-2",
+            "DE.CM-7",
+            "DE.CM-3",
+            "DE.AE-3"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.175"
           ]
         }
       ]
@@ -2319,6 +3357,30 @@
           "standard": "PCI DSS",
           "requirements": [
             "11.4"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-2",
+            "DE.CM-7",
+            "DE.CM-1",
+            "DE.AE-3",
+            "PR.AC-5"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SC.1.175"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.1.2",
+            "14.1.3"
           ]
         }
       ]
@@ -2349,6 +3411,35 @@
             "5.3",
             "5.4"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "DE.CM-4",
+            "DE.CM-3",
+            "DE.AE-3",
+            "PR.PT-4"
+          ]
+        },
+        {
+          "standard": "CSF",
+          "requirements": [
+            "SI.1.213"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211",
+            "SI.1.213"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "12.2.1"
+          ]
         }
       ]
     },
@@ -2359,6 +3450,29 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-7",
+            "DE.CM-4",
+            "DE.CM-1",
+            "PR.PT-4"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211",
+            "SC.1.175"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.1.2",
+            "14.1.3"
+          ]
         }
       ]
     },
@@ -2375,6 +3489,23 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-5",
+            "DE.DP-4",
+            "DE.AE-2",
+            "DE.AE-3",
+            "ID.RA-2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "6.1.4"
+          ]
         }
       ]
     },
@@ -2385,6 +3516,15 @@
           "standard": "CSA CCM",
           "requirements": [
             "SEF-02"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.AN-1",
+            "DE.DP-4",
+            "DE.CM-3",
+            "DE.AE-3"
           ]
         }
       ]
@@ -2412,6 +3552,37 @@
             "6.6",
             "11.2"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.MI-3",
+            "DE.CM-8",
+            "PR.IP-12",
+            "PR.IP-8",
+            "PR.DS-5"
+          ]
+        },
+        {
+          "standard": "CSF",
+          "requirements": [
+            "SI.1.213"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.211",
+            "SI.1.210",
+            "SI.1.213"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.2.8",
+            "12.6.1"
+          ]
         }
       ]
     },
@@ -2425,12 +3596,7 @@
         {
           "standard": "CSA CCM",
           "requirements": [
-            "GRM-04"
-          ]
-        },
-        {
-          "standard": "CSA CCM",
-          "requirements": [
+            "GRM-04",
             "IVS-05",
             "SEF-02",
             "TVM-02"
@@ -2441,6 +3607,25 @@
           "requirements": [
             "6.1",
             "6.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.MI-3",
+            "PR.IP-12"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "SI.1.210"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "12.6.1"
           ]
         }
       ]
@@ -2476,6 +3661,19 @@
             "9.8.1",
             "9.8.2"
           ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "MP.1.118"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.1.3",
+            "8.3.2"
+          ]
         }
       ]
     },
@@ -2490,6 +3688,21 @@
           "standard": "HITRUST CSF",
           "requirements": [],
           "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5",
+            "PR.PT-2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "13.2.1",
+            "8.3.1",
+            "8.3.3"
+          ]
         }
       ]
     },
@@ -2532,6 +3745,18 @@
             "6.2",
             "9.6"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "6.2.1"
+          ]
         }
       ]
     },
@@ -2552,6 +3777,23 @@
             "BCR-01",
             "GRM-05"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.CO-1",
+            "RS.CO-4",
+            "ID.RA-4",
+            "ID.BE-5",
+            "ID.BE-4"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "17.1.1"
+          ]
         }
       ]
     },
@@ -2571,6 +3813,24 @@
             "BCR-11",
             "GRM-05"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.RP-1",
+            "RS.CO-3",
+            "RS.RP-1",
+            "PR.IP-9",
+            "PR.DS-4"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "17.1.1",
+            "17.1.2"
+          ]
         }
       ]
     },
@@ -2587,6 +3847,21 @@
           "standard": "CSA CCM",
           "requirements": [
             "BCR-02"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.IM-1",
+            "DE.DP-3",
+            "PR.IP-10"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "17.1.3"
           ]
         }
       ]
@@ -2607,6 +3882,12 @@
             "BCR-05",
             "DCS-04"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1"
+          ]
         }
       ]
     },
@@ -2624,6 +3905,13 @@
           "requirements": [
             "IVS-04",
             "STA-03"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.DS-4"
           ]
         }
       ]
@@ -2648,6 +3936,19 @@
             "BCR-11",
             "STA-01"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.RP-1",
+            "PR.DS-4"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "17.2.1"
+          ]
         }
       ]
     },
@@ -2664,6 +3965,21 @@
           "standard": "PCI DSS",
           "requirements": [
             "12.5"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.CO-1",
+            "RS.CO-4",
+            "DE.DP-1"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "16.1.1"
           ]
         }
       ]
@@ -2693,6 +4009,32 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-3",
+            "RS.MI-2",
+            "RS.MI-1",
+            "RS.AN-3",
+            "RS.AN-2",
+            "RS.CO-2",
+            "RS.CO-3",
+            "RS.RP-1",
+            "DE.AE-2",
+            "DE.AE-4",
+            "DE.AE-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "16.1.1",
+            "16.1.2",
+            "16.1.4",
+            "16.1.5",
+            "16.1.6"
+          ]
         }
       ]
     },
@@ -2720,6 +4062,26 @@
           "requirements": [
             "12.10",
             "12.10.1"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-1",
+            "RS.MI-2",
+            "RS.MI-1",
+            "RS.AN-4",
+            "RS.AN-3",
+            "RS.AN-2",
+            "RS.AN-1",
+            "DE.AE-5",
+            "PR.IP-9"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "16.1.5"
           ]
         }
       ]
@@ -2757,6 +4119,16 @@
           "requirements": [
             "BCR-02"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.IM-2",
+            "RC.IM-1",
+            "RS.IM-1",
+            "DE.DP-3",
+            "PR.IP-10"
+          ]
         }
       ]
     },
@@ -2765,8 +4137,23 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RS.IM-1",
+            "DE.DP-5",
+            "DE.AE-2"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "16.1.6",
+            "16.1.7"
+          ]
         }
       ]
     },
@@ -2793,6 +4180,17 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-3",
+            "RC.CO-1",
+            "RS.CO-2",
+            "RS.CO-3",
+            "RS.RP-1"
+          ]
         }
       ]
     },
@@ -2810,6 +4208,21 @@
           "requirements": [
             "12.10",
             "12.10.1"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-1",
+            "RS.CO-4",
+            "RS.CO-5"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "6.1.3"
           ]
         }
       ]
@@ -2837,6 +4250,19 @@
             "12.10",
             "12.10.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "RS.CO-4"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "AC.1.004"
+          ]
         }
       ]
     },
@@ -2855,6 +4281,14 @@
             "GRM-06",
             "SEF-04",
             "STA-02"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "RC.CO-2",
+            "RC.CO-1",
+            "RS.CO-5"
           ]
         }
       ]
@@ -2882,6 +4316,22 @@
           "requirements": [
             "12.8",
             "12.8.3"
+          ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-6",
+            "PR.AT-3"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "15.1.1",
+            "15.1.2",
+            "15.2.2",
+            "6.1.5"
           ]
         }
       ]
@@ -2916,6 +4366,20 @@
             "12.8.4",
             "12.8.5"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "PR.AT-3"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "13.2.2",
+            "15.1.3",
+            "6.1.5"
+          ]
         }
       ]
     },
@@ -2924,8 +4388,20 @@
       "implements": [
         {
           "standard": "SOC 2",
-          "controls": [],
-          "requirements": []
+          "requirements": [],
+          "controls": []
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "DE.CM-6"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "15.2.1"
+          ]
         }
       ]
     },
@@ -2948,6 +4424,24 @@
             "12.8",
             "12.8.1"
           ]
+        },
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.AM-4"
+          ]
+        },
+        {
+          "standard": "CMMC ML1",
+          "requirements": [
+            "AC.1.003"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "14.1.1"
+          ]
         }
       ]
     },
@@ -2962,6 +4456,58 @@
           "standard": "CSA CCM",
           "requirements": [
             "IPY-03"
+          ]
+        },
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cp-gov-bod",
+      "implements": []
+    },
+    {
+      "id": "cp-risk-mgmt-objectives",
+      "implements": [
+        {
+          "standard": "NIST CSF",
+          "requirements": [
+            "ID.RM-3",
+            "ID.RM-2",
+            "ID.RA-4",
+            "ID.RA-5",
+            "ID.BE-3",
+            "ID.BE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cp-physical-cleandesk",
+      "implements": []
+    },
+    {
+      "id": "ref-privacy-policy",
+      "implements": [
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "18.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ref-employee-handbook",
+      "implements": [
+        {
+          "standard": "ISO/IEC 27002:2013",
+          "requirements": [
+            "7.1.2"
           ]
         }
       ]
